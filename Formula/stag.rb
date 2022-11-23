@@ -15,7 +15,7 @@ class Stag < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", *std_configure_args, "--disable-silent-rules"
+    system "open ."
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
