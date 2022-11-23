@@ -15,7 +15,7 @@ class Stag < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "open stag-v0.1.2-8a09f90-x64.pkg"
+    system "open macos/stag-v0.1.2-8a09f90-x64.pkg"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
